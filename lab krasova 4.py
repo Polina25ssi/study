@@ -5,8 +5,10 @@ for i in range(len(s)):
 		d[s[i]] = 1
 	else:
 		d[s[i]] += 1
-
 print(d)
+print(s.replace(" ", ''))
+
 st = input("Enter word: ")
+
 print(s.find(st))
 print(sorted(s.split(" ")))
